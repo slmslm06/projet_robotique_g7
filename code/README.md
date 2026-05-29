@@ -38,9 +38,9 @@ Ce programme a été développé de façon **incrémentale** : chaque version co
 | `parcours_v10` | Suivi du mur droit + intégration des sections couleur (5-6-7). |
 | `parcours_v10_2` | Évitement O1 refait en miroir d'O2, helper servo. |
 | `parcours_v10_3` | Entrée tunnel par timer, réglages évitement/servo. |
-| **`parcours_vfin3`** | **Version finale (v15)** : tunnel stabilisé, affichage LCD des sections, séquence lanceur. |
+| **`parcours_vfin`** | **Version finale** : tunnel stabilisé, affichage LCD des sections, séquence lanceur. |
 
-> **Version à utiliser pour la compétition : `parcours_vfin3.ino`.** Les autres versions sont conservées à titre d'historique.
+> **Version à utiliser pour la compétition : `parcours_vfin.ino`.** Les autres versions sont conservées à titre d'historique.
 
 ## Programmes annexes (tests et calibration)
 
@@ -82,7 +82,7 @@ Ces valeurs dépendent du robot et de la piste, et doivent être réajustées ap
 
 ## Utilisation
 
-1. Ouvrir `parcours/parcours_vfin3.ino` dans l'IDE Arduino.
+1. Ouvrir `parcours/parcours_vfin.ino` dans l'IDE Arduino.
 2. Installer les bibliothèques nécessaires : `Wire`, `Servo`, `Adafruit_NeoPixel` et `rgb_lcd` (Grove).
 3. Régler le moniteur série sur **9600 bauds**.
 4. Téléverser, placer le robot sur la ligne de départ et suivre les indications du moniteur série (et de l'écran LCD).
